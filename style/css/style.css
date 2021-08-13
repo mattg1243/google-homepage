@@ -4,6 +4,28 @@ nav {
     padding: 6px;
 }
 
+#navmenu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 7px;
+}
+
+#images-a {
+    justify-content: flex-end;
+}
+
+li a {
+    display: flex;
+    width: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
 .navbuttons {
     padding: 0px 10px 0px 10px;
     font-size: 14px;
@@ -14,9 +36,6 @@ nav {
     cursor: pointer;
 }
 
-.navbuttons:hover {
-    text-decoration: underline;
-}
 
 #logo {
     padding-top: 150px;
@@ -60,4 +79,9 @@ nav {
 .flexcentered {
     display:flex;
     justify-content: center;
+}
+
+.flexright {
+    display:flex;
+    justify-content: right;
 }
