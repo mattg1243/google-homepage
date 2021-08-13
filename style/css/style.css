@@ -1,0 +1,14 @@
+#logo {
+    padding-top: 150px;
+}
+
+#searchbar {
+    display: block;
+    width: 300px;
+    
+}
+
+.centeredblock {
+    display: block;
+    margin: auto;
+}
