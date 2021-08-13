@@ -1,3 +1,23 @@
+nav {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.navbuttons {
+    padding: 0px 10px 0px 10px;
+    font-size: 14px;
+    font-family: Roboto,arial,sans-serif;
+    color: #222;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navbuttons:hover {
+    text-decoration: underline;
+}
+
 #logo {
     padding-top: 150px;
     padding-bottom: 10px;
@@ -5,14 +25,33 @@
 
 #searchbar {
     display: block;
-    width: 300px;
-    
+    width: 500px;
 }
 
-/*button :hover {
-
+.searchbuttons { 
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
-*/
+
+.searchbuttons :hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
 .centeredblock {
     display: block;
     margin: auto;
