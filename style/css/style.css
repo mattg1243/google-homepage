@@ -1,5 +1,6 @@
 #logo {
     padding-top: 150px;
+    padding-bottom: 10px;
 }
 
 #searchbar {
@@ -8,7 +9,16 @@
     
 }
 
+/*button :hover {
+
+}
+*/
 .centeredblock {
     display: block;
     margin: auto;
+}
+
+.flexcentered {
+    display:flex;
+    justify-content: center;
 }
